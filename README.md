@@ -1,11 +1,21 @@
 # numpy-from-basics-to-advanced
 This notebook contains my practice of NumPy Array concepts from basic to intermediate level. I explored how to create arrays, check their properties, and perform different operations using NumPy.  This file is part of my learning journey in Data Analytics and Machine Learning.
-📂 File Included
+📘 NumPy Learning Project
+📖 Overview
 
-numpy_array.ipynb
-👉 Covers NumPy array creation, attributes, operations, and important functions.
+This repository contains hands-on practice notebooks for NumPy, covering concepts from array fundamentals to advanced operations.
+It is designed to build a strong foundation for Data Analytics, Machine Learning, and Scientific Computing.
 
-🧩 Topics Covered
+📂 Files Included
+📌 numpy_array.ipynb
+
+👉 Covers NumPy array creation, attributes, operations, and essential functions.
+
+📌 numpy_adv.ipynb
+
+👉 Covers advanced indexing, broadcasting, mathematical operations, and handling missing values.
+
+🧩 Topics Covered – numpy_array.ipynb
 1️⃣ Creating NumPy Arrays
 
 np.array()
@@ -28,11 +38,11 @@ ndim – number of dimensions
 
 shape – shape of array
 
-size – total elements
+size – total number of elements
 
 itemsize – size of each element
 
-dtype – data type
+dtype – data type of array
 
 3️⃣ Data Type & Operations
 
@@ -117,7 +127,38 @@ np.in1d()
 
 np.clip()
 
-🛠️ Tools Used
+🔥 Advanced NumPy Topics – numpy_adv.ipynb
+🔍 Array Comparison
+
+NumPy Array vs Python List
+
+📌 Advanced Indexing
+
+Advanced Indexing
+
+Fancy Indexing
+
+Boolean Indexing
+
+📐 Broadcasting in NumPy
+
+Broadcasting Concept
+
+Broadcasting Rules
+
+Broadcasting Examples
+
+🧮 Mathematical Operations
+
+Mathematical operations in NumPy
+
+Sigmoid function using NumPy
+
+🧼 Handling Missing Values
+
+Working with missing values
+
+🛠️ Tools & Technologies
 
 Python 🐍
 
@@ -125,18 +166,28 @@ NumPy 📊
 
 Jupyter Notebook 📓
 
-🎯 Purpose
+🎯 Purpose & Learning Outcomes
 
-To understand NumPy arrays deeply
+Understand NumPy arrays deeply
 
-To build a strong foundation for Data Analytics and Machine Learning
+Learn why NumPy is faster than Python lists
 
-To practice Python numerical computing
+Apply advanced indexing and broadcasting
+
+Perform mathematical operations for ML use cases
+
+Handle missing data efficiently
+
+Build a strong base for Data Analytics & Machine Learning
+
+⭐ Tip
+
+Start with numpy_array.ipynb before moving to numpy_adv.ipynb for better understanding.
 
 👩‍💻 Author
 
 Apoorva Jaliminchi
 
-⭐ Note
+📝 Note
 
-This notebook is created for learning and practice purposes.
+This project is created for learning and practice purposes.
